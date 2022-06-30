@@ -19,5 +19,9 @@ public class Shape : MonoBehaviour
     protected virtual void WriteMessage()
     {
         Debug.Log(message);
-    }    
+    }
+    protected virtual void WriteMessage(string text)  // POLYMORPHISM
+    {
+        Debug.Log(text);
+    }
 }
