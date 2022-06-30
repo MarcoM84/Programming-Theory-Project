@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shape : MonoBehaviour
+public class Shape : MonoBehaviour // INHERITANCE
 {
     public string message { get; protected set; } // ENCAPSULATION
 
